@@ -18,3 +18,4 @@ else if (player_id == 1)
 
 points = 0;
 playerShield = 100;
+

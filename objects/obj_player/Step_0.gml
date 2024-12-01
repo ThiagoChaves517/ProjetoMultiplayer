@@ -5,19 +5,19 @@ var _input = rollback_get_input();
 
 if (_input.left)
 {
-        x -= 1;
+        x -= global.speed;
 }
 if (_input.right)
 {
-        x += 1;
+        x += global.speed;
 }
 if (_input.down)
 {
-        y += 1;
+        y += global.speed;
 }
 if (_input.up)
 {
-        y -= 1;
+        y -= global.speed;
 }
 
 if (player_id == 0)
@@ -27,10 +27,12 @@ if (player_id == 0)
 	if (_input.fire_pressed)
 	{
         var _proj = instance_create_layer(x, y, layer, obj_projectile);
-        
+		
         _proj.speed = 10;
         _proj.direction = image_angle;
         _proj.image_angle = image_angle;
         _proj.player = self;
 	}
 }
+
+y = clamp(y, 50, room_height);
