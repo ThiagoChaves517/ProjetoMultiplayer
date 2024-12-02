@@ -1,9 +1,9 @@
 {
-  "option_operagx_version": "0.0.0.54",
-  "option_operagx_next_version": "0.0.0.55",
+  "option_operagx_version": "0.0.0.71",
+  "option_operagx_next_version": "0.0.0.72",
   "option_operagx_game_name": "Kitchen-of-The-Fittest",
   "option_operagx_interpolate_pixels": false,
-  "option_operagx_scale": 1,
+  "option_operagx_scale": 0,
   "option_operagx_texture_page": "2048x2048",
   "option_operagx_display_cursor": true,
   "option_operagx_guid": "2807b0f6-981c-4df8-bfbf-35ab82ee31c7",

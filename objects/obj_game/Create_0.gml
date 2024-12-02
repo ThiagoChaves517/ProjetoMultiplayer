@@ -25,10 +25,8 @@ time_source_start(time_source_create(time_source_game, 1500, time_source_units_f
 	
 	global.speed = currentSpeed;
 	
-	if(currentSpeed == 7.5)
+	if(currentSpeed == 7.0)
 	{
 		currentSpeed = 1;
 	}
-	
-	show_debug_message(global.speed);
 }, [], -1));

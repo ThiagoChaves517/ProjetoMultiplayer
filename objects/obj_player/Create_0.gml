@@ -10,8 +10,6 @@ if (player_id == 0)
 else if (player_id == 1)
 {
 	sprite_index = CrabMoving1;
-	image_xscale = 2;
-	image_yscale = 2;
 	
 	x = room_width - 50;
 }
