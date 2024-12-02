@@ -13,12 +13,12 @@ rollback_define_input(
 
 if (!rollback_join_game())
 {
-	rollback_create_game(2, true);
+	rollback_create_game(2, false);
 }
 
 global.speed = 1;
 
-time_source_start(time_source_create(time_source_game, 1800, time_source_units_frames, function()
+time_source_start(time_source_create(time_source_game, 1500, time_source_units_frames, function()
 {
 	static currentSpeed = 1;
 	currentSpeed += 0.5;

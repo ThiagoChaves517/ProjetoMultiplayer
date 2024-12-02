@@ -22,20 +22,8 @@ else
 			
 			other.player.points += 1;	
 			
-			playerShield = 100;
+			playerShield = 50;
 		}
 			
-	}
-	else
-	{
-		effect_create_above(ef_ring, x, y, 0, c_white);
-        
-		x = irandom_range(40, room_width - 40);
-	
-		y = irandom_range(60, room_height - 60);
-        
-		other.player.points += 1;	
-	
-		instance_destroy(other);
 	}
 }
